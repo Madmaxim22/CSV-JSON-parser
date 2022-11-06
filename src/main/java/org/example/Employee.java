@@ -1,14 +1,10 @@
 package org.example;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.io.Serializable;
 
 public class Employee implements Serializable {
     public long id;
-    @SerializedName("name")
     public String firstName;
-    @SerializedName("surname")
     public String lastName;
     public String country;
     public int age;
